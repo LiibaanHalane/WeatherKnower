@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/0.11.1/typeahead.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Knower</h1>
+    </header>
+    <main>
+    <input id="city" type="text" placeholder="Enter your city">
+    <button id="submit-btn" type="button" class="btn">Search</button> 
+    <h2>Current Weather</h2>
+    <article class="weather" class="card container">
+
+    </article>
+    <nav>
+        <h2>Search History</h2>
+        <ul id="search-history" class="search-history" class="card">
+        </ul>
+    </main>
+    
+</body>
+</html>
+<!-- 
+GIVEN a weather dashboard with form inputs
+WHEN I search for a city
+THEN I am presented with current and future conditions for that city and that city is added to the search history
+WHEN I view current weather conditions for that city
+THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
+WHEN I view future weather conditions for that city
+THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+WHEN I click on a city in the search history
+THEN I am again presented with current and future conditions for that city
+``` -->
